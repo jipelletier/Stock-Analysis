@@ -7,8 +7,8 @@
 ## Results
   There is a stark difference between the stock performance in 2017 and 2018. 10 of the 12 companies returned less than 1% for the year 2018 while 10 of the 11 companies returned a percentage above 1. The code below was used to determine the return and total daily volume of the "Tickers"
   
-  '2a) Create a for loop to initialize the tickerVolumes to zero.
-    
+### Total Daily Volume and Return of Tickers Code
+
     For i = 0 To 11
         tickerVolumes(i) = 0
         tickerStartingPrices(i) = 0
@@ -60,7 +60,7 @@
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
    
-  
+ ### Execution Times
  By refractoring the script, we were able to increase the overall run time.
  
  ![VBA-Challenge_2018.png](https://github.com/jipelletier/Stock-Analysis/blob/main/Resources/VBA-Challenge_2018.png)
