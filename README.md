@@ -8,7 +8,7 @@
   There is a stark difference between the stock performance in 2017 and 2018. 10 of the 12 companies returned less than 1% for the year 2018. By refractoring the script, we were able to increase the overall run time.
  
  ![VBA-Challenge_2018.png](https://github.com/jipelletier/Stock-Analysis/blob/main/Resources/VBA-Challenge_2018.png)
-  
+ ![VBA_Challened_2017.png](
   
 - Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script
 
